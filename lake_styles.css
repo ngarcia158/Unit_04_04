@@ -1,0 +1,78 @@
+﻿/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author:Nicholas Garcia 
+   Date:9/16/19   
+   
+   Filename: lake_styles.css
+
+*/
+
+@charset "utf-8";
+
+header nav a:active, header nav a:hover{
+   background-color: gray;
+}
+header nav a{
+   background-color: rgba(192, 0, 250, 0.534);
+   border: 20px
+}
+body{
+   background-color:rgba(59, 104, 0, 0.589);
+   
+}
+body #rightcol{
+   background-color: rgba(78, 6, 138, 0.623);
+   padding-right: 20px
+}
+#rightcol h2{
+   font-family: champagne, sans-serif;
+   margin-top: 0px;
+   text-align: center;
+}
+nav a{
+   text-decoration: none;
+   color: rgba(255, 255, 255, 0.527);
+}
+nav li{
+   margin: 5px
+}
+#rightcol nav a:active, #rightcol nav a:hover{
+   color:rgb(1, 1, 143);
+}
+body #leftcol{
+   background-color: rgba(228, 197, 130, 0.616);
+   margin: 0px;
+}
+blockquote{
+   font-family: 'Times New Roman', sans-serif;
+   margin: 50px;
+   padding-top: 10%
+}
+#leftcol > h1:first-of-type{
+   font-family:champagne;
+   font-size: 65px;
+   margin: 0px;
+}
+aside > h1{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+footer{
+   background-color:rgb(126, 129, 124);
+}
+@font-face{
+   font-family: champagne;
+   src:url(cac_champagne.ttf) format('truetype'),
+   url(cac_champagne.woff) format('woff'),
+   url(cac_champagne.woff2) format('woff2');
+
+}
+@font-face{
+   font-family: dobkin;
+   src:url(DobkinPlain.ttf) format('truetype'),
+   url(DobkinPlain.woff) format('woff'),
+   url(DobkinPlain.woff2) format('woff2');
+}
